@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#101014" />
+    <meta
+      name="description"
+      content="Lucas Oto. Estudante de ADS e técnico em Mecatrônica construindo sua trajetória em backend, com prática em Python e Linux e uma trilha planejada em Java, Spring Boot e SQL."
+    />
+    <title>Lucas Oto — Backend & além</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23987aff'/%3E%3Cpath d='M9 8v16h15v-4H13V8z' fill='%23101014'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a class="skip" href="#main">Pular para o conteúdo</a>
+    <header class="header">
+      <a href="#" class="brand" aria-label="Lucas Oto início"
+        >l<span>.</span> <b>lucas<span>oto</span></b></a
+      >
+      <nav aria-label="Navegação principal">
+        <a href="#projetos">Projetos</a><a href="#estudos">Estudos</a
+        ><a href="#rota">Próximos passos</a>
+      </nav>
+      <a
+        class="header-link"
+        href="https://github.com/lucasoto"
+        target="_blank"
+        rel="noopener noreferrer"
+        >GitHub <span>↗</span></a
+      >
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="intro">
+          <div class="eyebrow">
+            <span class="status-dot"></span> EM FORMAÇÃO · ABERTO A ESTÁGIO
+          </div>
+          <h1>
+            Construindo<br />o que acontece<br /><span>nos bastidores.</span>
+          </h1>
+          <p>
+            Sou Lucas Oto, estudante de Análise e Desenvolvimento de Sistemas e
+            técnico em Mecatrônica. Meu foco é backend: entender a lógica,
+            construir APIs e fazer as peças funcionarem juntas. Meu próximo foco
+            de estudo é Java, com o objetivo de conquistar minha primeira
+            oportunidade na área.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projetos"
+              >Explorar projetos <span>↘</span></a
+            ><a
+              class="text-link"
+              href="https://www.linkedin.com/in/lucasoto-dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Meu LinkedIn ↗</a
+            >
+          </div>
+          <div class="hero-foot">
+            <span>PYTHON</span><i>/</i><span>FASTAPI</span><i>/</i
+            ><span>LINUX</span><i>/</i><span>GIT</span>
+          </div>
+        </div>
+        <aside class="terminal" aria-label="Resumo da trajetória de Lucas">
+          <div class="terminal-top">
+            <span class="terminal-mark">⌘</span
+            ><span>lucas@dev <em>~/trajetoria</em></span
+            ><span class="terminal-label">bash</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="prompt">❯</span> cat perfil.json</p>
+            <pre>{
+  <span class="key">"nome"</span>: <span class="value">"Lucas Oto"</span>,
+  <span class="key">"formação"</span>: <span class="value">"ADS em andamento"</span>,
+  <span class="key">"base"</span>: <span class="value">"Mecatrônica · IFSP"</span>,
+  <span class="key">"foco"</span>: <span class="value">"Desenvolvimento backend"</span>,
+  <span class="key">"ambiente"</span>: <span class="value">"Arch Linux"</span>,
+  <span class="key">"próximo"</span>: [<span class="value">"Java"</span>, <span class="value">"SQL"</span>]
+}</pre>
+            <p class="terminal-command">
+              <span class="prompt">❯</span> echo $DIRECAO
+            </p>
+            <p class="terminal-output">Aprender. Construir. Entender.</p>
+            <p class="cursor-line">
+              <span class="prompt">❯</span> <span class="cursor"></span>
+            </p>
+          </div>
+          <div class="terminal-bottom">
+            <span>01 / FUNDAMENTOS PRIMEIRO</span><span>↗</span>
+          </div>
+        </aside>
+      </section>
+      <section class="projects section" id="projetos">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">01 — PROJETOS</p>
+            <h2>Da curiosidade ao código.</h2>
+          </div>
+          <p>
+            Projetos reais, experimentos e ideias<br />que estão ganhando forma.
+          </p>
+        </div>
+        <article class="featured">
+          <div class="project-copy">
+            <div class="project-meta">
+              <span class="project-number">PROJETO 001</span
+              ><span class="pill">Em desenvolvimento</span>
+            </div>
+            <h3>PowerWatch API<span>↗</span></h3>
+            <p>
+              Uma API para registrar e consultar interrupções de energia. Meu
+              projeto de estudo para transformar fundamentos de Python em uma
+              aplicação backend.
+            </p>
+            <div class="tags">
+              <span>Python</span><span>FastAPI</span><span>Uvicorn</span>
+            </div>
+            <div class="project-note">
+              <b>Ponto de partida</b
+              ><span
+                >Estrutura inicial e endpoint de health check. O registro e a
+                consulta de ocorrências fazem parte da evolução planejada.</span
+              >
+            </div>
+            <a
+              class="text-link"
+              href="https://github.com/lucasoto/powerwatch-api-lab"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Ver repositório <span>↗</span></a
+            >
+          </div>
+          <div class="api-panel">
+            <div class="api-heading">
+              <span>POWERWATCH / HEALTH CHECK</span
+              ><span class="api-icon">{ }</span>
+            </div>
+            <div class="endpoint"><span>GET</span> /health</div>
+            <div class="response-label">RESPOSTA DE EXEMPLO <b>200 OK</b></div>
+            <pre>{
+  <span class="key">"status"</span>: <span class="green">"ok"</span>
+}</pre>
+            <div class="api-caption">
+              Uma base pequena.<br /><strong>Um próximo passo concreto.</strong>
+            </div>
+          </div>
+        </article>
+        <div class="secondary-projects">
+          <article class="small-project">
+            <div class="project-meta">
+              <span class="project-number">LABORATÓRIO LINUX</span
+              ><span class="pill neutral">Prática pessoal</span>
+            </div>
+            <h3>Um ambiente feito para aprender.</h3>
+            <p>
+              Instalação e configuração do Arch Linux, Hyprland e Caelestia.
+              Terminal, arquivos de configuração e resolução de problemas no dia
+              a dia.
+            </p>
+            <div class="tags">
+              <span>Arch Linux</span><span>Shell</span><span>Configuração</span>
+            </div>
+          </article>
+          <article class="small-project">
+            <div class="project-meta">
+              <span class="project-number">EXPLORAÇÃO CRIATIVA</span
+              ><span class="pill neutral">Planejado</span>
+            </div>
+            <h3>Identidade desde o primeiro boot.</h3>
+            <p>
+              Ideia de criar temas próprios para rEFInd e Plymouth, unindo
+              personalização do Linux, organização de arquivos e documentação
+              para o GitHub.
+            </p>
+            <div class="tags">
+              <span>rEFInd</span><span>Plymouth</span><span>Documentação</span>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="studies section" id="estudos">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">02 — ESTUDOS & BASE TÉCNICA</p>
+            <h2>Entender antes de abstrair.</h2>
+          </div>
+          <p>A base vem da Mecatrônica.<br />A direção é desenvolvimento.</p>
+        </div>
+        <div class="studies-grid">
+          <div class="education">
+            <span class="label">FORMAÇÃO</span>
+            <h3>Análise e Desenvolvimento<br />de Sistemas</h3>
+            <p>Graduação em andamento · primeiro semestre</p>
+            <div class="education-divider"></div>
+            <h4>Técnico em Mecatrônica</h4>
+            <p>
+              Formação concluída no IFSP. Uma base em lógica e sistemas que
+              agora se conecta ao desenvolvimento de software.
+            </p>
+            <div class="education-footer">
+              Da lógica dos sistemas físicos<br /><b
+                >à construção de sistemas digitais.</b
+              >
+            </div>
+          </div>
+          <div class="skill-list">
+            <article>
+              <span class="skill-index">01</span>
+              <div>
+                <h3>Python & fundamentos de backend</h3>
+                <p>
+                  Lógica de programação, estruturas de dados básicas e primeiros
+                  passos com APIs usando FastAPI.
+                </p>
+              </div>
+              <span class="skill-state">Praticando</span>
+            </article>
+            <article>
+              <span class="skill-index">02</span>
+              <div>
+                <h3>Linux & ferramentas de desenvolvimento</h3>
+                <p>
+                  Arch Linux no dia a dia, terminal, Git, GitHub e configuração
+                  do ambiente de estudo.
+                </p>
+              </div>
+              <span class="skill-state">Praticando</span>
+            </article>
+            <article>
+              <span class="skill-index">03</span>
+              <div>
+                <h3>Fundamentos da web</h3>
+                <p>
+                  HTML, CSS e JavaScript na graduação para compreender a
+                  interface e sua relação com o backend.
+                </p>
+              </div>
+              <span class="skill-state">Estudando</span>
+            </article>
+            <article>
+              <span class="skill-index">04</span>
+              <div>
+                <h3>Aprendizado complementar</h3>
+                <p>
+                  Estudos de Python pela Cisco e cursos de lógica, CyberSecurity
+                  e muito mais.
+                </p>
+              </div>
+              <span class="skill-state">Formação</span>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="roadmap section" id="rota">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">03 — PRÓXIMOS PASSOS</p>
+            <h2>Uma direção. Um passo por vez.</h2>
+          </div>
+          <p>Rota de evolução proposta.<br />Sem pular os fundamentos.</p>
+        </div>
+        <div class="road-grid">
+          <article class="road-step current">
+            <div class="road-top"><span>01</span><b>BASE ATUAL</b></div>
+            <h3>Consolidar os fundamentos</h3>
+            <p>
+              Usar o PowerWatch em Python para praticar lógica, HTTP e Git.
+              Documentar o aprendizado e concluir pequenas entregas.
+            </p>
+            <div>Python · Git · APIs</div>
+          </article>
+          <article class="road-step">
+            <div class="road-top"><span>02</span><b>PRÓXIMO FOCO</b></div>
+            <h3>Construir a base em Java</h3>
+            <p>
+              Estudar Java, orientação a objetos, coleções e exceções. Aprender
+              SQL e modelagem básica de dados com exercícios práticos.
+            </p>
+            <div>Java · POO · SQL</div>
+          </article>
+          <article class="road-step">
+            <div class="road-top"><span>03</span><b>PROJETO PLANEJADO</b></div>
+            <h3>Uma API com Spring Boot</h3>
+            <p>
+              Criar uma API REST com PostgreSQL, validação, tratamento de erros
+              e testes. Documentar como executar e usar a aplicação.
+            </p>
+            <div>Spring Boot · PostgreSQL · JUnit</div>
+          </article>
+          <article class="road-step">
+            <div class="road-top"><span>04</span><b>EVOLUÇÃO FUTURA</b></div>
+            <h3>Deploy, cloud e Go</h3>
+            <p>
+              Publicar uma aplicação e explorar containers e monitoramento.
+              Retomar Go depois de consolidar a base de backend em Java.
+            </p>
+            <div>Docker · Cloud · Go</div>
+          </article>
+        </div>
+        <p class="road-note">
+          Java, Spring Boot e SQL compõem a próxima trilha de estudos. Go e
+          cloud permanecem como objetivos futuros.
+        </p>
+      </section>
+      <section class="contact">
+        <div>
+          <p class="eyebrow">VAMOS CONVERSAR</p>
+          <h2>
+            Buscando a primeira<br />oportunidade em tecnologia<span>.</span>
+          </h2>
+          <p>
+            Interesse em estágio e em equipes onde eu possa aprender,<br />contribuir
+            e evoluir como desenvolvedor backend.
+          </p>
+        </div>
+        <a
+          class="button primary"
+          href="https://www.linkedin.com/in/lucasoto-dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Conversar no LinkedIn <span>↗</span></a
+        >
+      </section>
+    </main>
+    <footer>
+      <a href="#" class="brand"
+        >l<span>.</span> <b>lucas<span>oto</span></b></a
+      >
+      <p>Em construção constante. Assim como o código.</p>
+      <span>© 2026 Lucas Oto</span>
+    </footer>
+  </body>
+</html>
